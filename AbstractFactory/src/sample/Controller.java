@@ -66,7 +66,8 @@ public class Controller {
             currentArrow1.setEndX(mouseEvent.getX());
             currentArrow1.setEndY(mouseEvent.getY());
             currentArrow1.draw(gr);
-            }
+            } // new change
+        
         }
     }
 
