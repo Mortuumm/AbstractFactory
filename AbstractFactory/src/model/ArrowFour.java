@@ -15,7 +15,7 @@ public class ArrowFour extends AbstractProductArrow implements Cloneable {
         // определение пропорций кончика стрелки
         arrowHeadSize=0.09*Math.sqrt((startX-endX)*(startX-endX)+(startX-endX)*(startX-endX));
     }
-    public void draw(GraphicsContext gc) {
+    public void draw(GraphicsContext gc) { // отрисовка стрелки
         drawArrowstart(gc);//начало стрелки
         drawLine(gc);//линия
         drawArrowend(gc);//конец стрелки
